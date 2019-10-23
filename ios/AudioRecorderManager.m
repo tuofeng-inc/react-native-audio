@@ -39,8 +39,7 @@ NSString *const AudioRecorderEventFinished = @"recordingFinished";
 
 RCT_EXPORT_MODULE();
 
-+ (BOOL)requiresMainQueueSetup
-{
++ (BOOL)requiresMainQueueSetup {
   return YES;
 }
 
